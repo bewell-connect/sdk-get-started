@@ -2,16 +2,17 @@
 
 BewellConnect BluetoothLE SDK helps integrate BewellConnect devices into iOS or Android projects without taking care of data processing.
 
-- [BluetoothLE Android SDK](#bluetoothle-android-sdk)
-  - [Compatibility](#compatibility)
-  - [Release hitory](#release-hitory)
-  - [Use SDK with Maven](#use-sdk-with-maven)
-  - [Usage example](#usage-example)
-- [BluetoothLE iOS SDK](#bluetoothle-ios-sdk)
-  - [Compatibility](#compatibility-(ios))
-  - [Release hitory](#release-hitory-(ios))
-  - [Use SDK with Carthage](#use-sdk-with-carthage)
-  - [Usage example](#usage-example-(ios))
+- [BewellConnect BluetoothLE SDK](#bewellconnect-bluetoothle-sdk)
+  - [BluetoothLE Android SDK](#bluetoothle-android-sdk)
+    - [Compatibility](#compatibility)
+    - [Release hitory](#release-hitory)
+    - [Use SDK with Maven](#use-sdk-with-maven)
+    - [Usage example](#usage-example)
+  - [BluetoothLE iOS SDK](#bluetoothle-ios-sdk)
+    - [Compatibility (iOS)](#compatibility-ios)
+    - [Release hitory (iOS)](#release-hitory-ios)
+    - [Use SDK with Carthage](#use-sdk-with-carthage)
+    - [Usage example (iOS)](#usage-example-ios)
 
 ## BluetoothLE Android SDK
 
@@ -28,7 +29,7 @@ BewellConnect BluetoothLE SDK helps integrate BewellConnect devices into iOS or 
   - Thermometer: BW-CX10, BW-MTX1, AOJ-20.
   - Blood Pressure monitor: BW-BW1, BW-BA*, BW-BT1.
   - Pedometer: BW-HB16, BW-M16.
-  - Oximeter: BW-OX1.
+  - Oximeter: BW-OX1, FS20.
   - Glucometer: BW-GL1, Beurer GL 50.
   - Scale: all BT-SC series, baby scale, kitchen scale.
   - TENS: BW-TS1.
@@ -37,6 +38,8 @@ BewellConnect BluetoothLE SDK helps integrate BewellConnect devices into iOS or 
 
 ### Release hitory
 
+- 2.4.0 (02/2021)
+  - ADD: compatible oximeter FS20.
 - 2.3.0
   - CHANGE: migrate project to AndroidX.
 - 2.2.0
@@ -122,7 +125,7 @@ https://github.com/bewell-connect/ble-and-demo-bis.git
   - Thermometer: BW-CX10, BW-MTX1, AOJ-20.
   - Blood Pressure monitor: BW-BW1, BW-BA*, BW-BT1.
   - Pedometer: BW-HB16, BW-M16.
-  - Oximeter: BW-OX1.
+  - Oximeter: BW-OX1, FS20
   - Glucometer: BW-GL1, Beurer GL 50.
   - Scale: all BT-SC series, baby scale, kitchen scale.
   - TENS: BW-TS1.
@@ -131,6 +134,8 @@ https://github.com/bewell-connect/ble-and-demo-bis.git
 
 ### Release hitory (iOS)
 
+- 1.8.0 (02/2021)
+  - ADD: compatible oximeter FS20.
 - 1.7.1
   - FIX: several bugs when copy THERMO_AOJ20 or TemperatureData's object.
 - 1.7.0
