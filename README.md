@@ -134,6 +134,8 @@ https://github.com/bewell-connect/ble-and-demo-bis.git
 
 ### Release hitory (iOS)
 
+- 1.8.1 (02/2021)
+  - FIX: abnormal pulse, spo2 data for oximeter FS20.
 - 1.8.0 (02/2021)
   - ADD: compatible oximeter FS20.
 - 1.7.1
