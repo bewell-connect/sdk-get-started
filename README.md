@@ -38,6 +38,8 @@ BewellConnect BluetoothLE SDK helps integrate BewellConnect devices into iOS or 
 
 ### Release hitory
 
+- 2.4.1 (02/2021)
+  - FIX: abnormal pulse, spo2 data for oximeter FS20.
 - 2.4.0 (02/2021)
   - ADD: compatible oximeter FS20.
 - 2.3.0
