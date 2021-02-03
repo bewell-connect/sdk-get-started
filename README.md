@@ -126,7 +126,7 @@ https://github.com/bewell-connect/ble-and-demo-bis.git
   - Blood Pressure monitor: BW-BW1, BW-BA*, BW-BT1.
   - Pedometer: BW-HB16, BW-M16.
   - Oximeter: BW-OX1, FS20
-  - Glucometer: BW-GL1, Beurer GL 50.
+  - Glucometer: BW-GL1.
   - Scale: all BT-SC series, baby scale, kitchen scale.
   - TENS: BW-TS1.
   - Pelvic TENS: BW-PFX1.
