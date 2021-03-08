@@ -136,6 +136,8 @@ https://github.com/bewell-connect/ble-and-demo-bis.git
 
 ### Release hitory (iOS)
 
+- 1.9.0 (03/2021)
+  - ADD: because Carthage has supported xcframework since 0.37.0, now we use xcframework instead of framework.
 - 1.8.1 (02/2021)
   - FIX: abnormal pulse, spo2 data for oximeter FS20.
 - 1.8.0 (02/2021)
@@ -154,6 +156,14 @@ github "bewell-connect/ble-ios-sdk-release"
 ```
 
 run command in project root:
+
+from 1.9.0, please run 
+
+```bash
+carthage update --use-xcframeworks
+```
+
+for version below 1.9.0, use
 
 ```bash
 carthage update --platform ios --no-build
