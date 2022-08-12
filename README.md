@@ -38,6 +38,8 @@ BewellConnect BluetoothLE SDK helps integrate BewellConnect devices into iOS or 
 
 ### Release hitory
 
+- 2.4.2 (08/2022)
+  - FIX: device description/type for BPM and thermometer (AOJ-20). 
 - 2.4.1 (02/2021)
   - FIX: abnormal pulse, spo2 data for oximeter FS20.
 - 2.4.0 (02/2021)
@@ -157,7 +159,7 @@ github "bewell-connect/ble-ios-sdk-release"
 
 run command in project root:
 
-from 1.9.0, please run 
+from 1.9.0, please run
 
 ```bash
 carthage update --use-xcframeworks
